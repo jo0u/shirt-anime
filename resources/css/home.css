@@ -1,0 +1,18 @@
+.custom-card {
+    /* Define uma altura fixa para o card */
+    height: 100%;
+    /* Define uma largura fixa para o card */
+    width: 100%;
+    /* Adiciona um overflow escondido para garantir que a imagem não ultrapasse o card */
+    overflow: hidden;
+    /* Define uma borda, se desejar */
+    border: 1px solid #ccc;
+}
+
+.img-custom-size {
+    /* Define o tamanho máximo da imagem para ajustar ao card */
+    max-width: 100%;
+    max-height: 100%;
+    /* Centraliza a imagem dentro do card */
+    object-fit: cover;
+}
