@@ -19,8 +19,8 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <div class="navbar-nav">
             <a class="nav-link" href="#">HOME</a>
-            <a class="nav-link" href="#">Categorias</a>
-            <a class="nav-link" href="#">Cadastrar</a>
+            <a class="nav-link" href="{{route('categoria')}}">Categorias</a>
+            <a class="nav-link" href="{{route('cadastrar')}}">Cadastrar</a>
         </div>
     </div>
     <a href="#" class="btn btn-md"><i class="bi bi-cart"></i></a>

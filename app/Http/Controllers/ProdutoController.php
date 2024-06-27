@@ -13,4 +13,10 @@ class ProdutoController extends Controller
         return view('home',compact('data'));
 
     }
+
+    public function categoria(Request $request){
+        $data = [];
+
+        return view('categoria',compact('data'));
+    }
 }
